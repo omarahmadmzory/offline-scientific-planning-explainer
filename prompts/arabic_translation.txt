@@ -1,0 +1,19 @@
+Translate the following English explanation into clear, simple Arabic.
+Rules you must follow:
+- Keep all numbers exactly as they appear. Do not change any numeric values.
+- Do not add new facts, assumptions, or recommendations.
+- Do not add medical advice or clinical recommendations.
+- Write entirely in Arabic.
+- Use the section labels below exactly.
+
+English explanation to translate:
+[CURRENT ENGLISH OUTPUT INSERTED HERE AT RUNTIME]
+
+Structure your Arabic output with these labeled sections only:
+ما الذي تم حسابه
+ماذا تعني الأرقام
+ملاحظة مهمة
+
+Note: The Arabic translation prompt receives the actual current English explanation
+at runtime. It does not use a hardcoded template — it translates whatever the user
+last generated with the English guided buttons.

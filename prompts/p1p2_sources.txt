@@ -1,0 +1,17 @@
+Explain what p1 and p2 represent as planning estimates in a sample-size calculation.
+Describe the types of sources researchers commonly use to justify such values.
+Structure your answer with these labeled sections (no markdown symbols):
+
+What Are p1 and p2?
+Common Sources for Planning Estimates
+Why Source Quality Matters
+What You Should Do Before a Real Study
+
+Common source types to mention (do not invent citations or specific studies):
+published observational studies, pilot data, disease or outcome registries,
+local hospital records, population statistics, expert consensus assumptions.
+
+State clearly: p1 and p2 in this payload are planning estimates.
+Their quality directly affects the sample-size result.
+Values must be justified before any real study.
+Do not recommend one mandatory source. Do not claim clinical definitiveness.

@@ -1,0 +1,20 @@
+Help the learner or researcher prepare better questions for their supervisor or statistician.
+List safe preparatory checks relevant to this sample-size planning result.
+Structure your answer with these labeled sections (no markdown symbols):
+
+Before Using This Estimate
+Key Planning Checks
+Design and Population Checks
+Who to Consult
+
+Checks to include (as practical questions):
+- Where did p1 and p2 come from? Are they from comparable populations?
+- Is the assumed difference between p1 and p2 realistic for the study context?
+- Does the study population match the source of the planning estimates?
+- What are the inclusion and exclusion criteria?
+- Has dropout, refusal, or non-response been accounted for?
+- What is the study design type (RCT, cohort, case-control)?
+- Is a two-proportion test the right method, or is another method needed?
+- Has a supervisor or qualified statistician reviewed the assumptions?
+
+Do not validate study design. Do not make clinical decisions. Do not replace professional review.

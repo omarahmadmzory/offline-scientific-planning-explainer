@@ -1,0 +1,44 @@
+# Model weights — never committed
+*.litertlm
+*.bin
+*.gguf
+models/
+
+# Android build outputs
+.gradle/
+.kotlin/
+build/
+app/build/
+*.apk
+*.aab
+*.aar
+
+# Local Android SDK path — machine-specific
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+.DS_Store
+.vscode/
+
+# Signing keys
+*.jks
+*.keystore
+
+# Logs, screenshots, benchmark artifacts
+logs/
+*.png
+*.jpg
+*.xml.bak
+
+# Internal development notes — not for public repo
+docs/roadmap/
+ROADMAP_INDEX.md
+DEFERRED_WORK.md
+KNOWLEDGE.md
+
+# Python/misc
+__pycache__/
+*.pyc
+.env

@@ -1,0 +1,10 @@
+Give a short, beginner-friendly explanation of what the deterministic result means.
+Use plain language. Avoid formulas. Keep it under 150 words.
+Structure your answer with these labeled sections (no markdown symbols):
+
+What Was Calculated
+What the Numbers Mean
+Why It Matters
+Important Note
+
+Do not add new numbers. Do not recalculate. Do not provide professional advice.

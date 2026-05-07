@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "statistics.two_proportion_sample_size",
+  "calculationId": "two_independent_proportions_sample_size",
+  "source": "deterministic_engine",
+  "aiRole": "explain_only",
+  "inputs": [
+    {
+      "id": "p1",
+      "label": "Group 1 adverse-outcome planning estimate",
+      "value": 0.167,
+      "unit": "proportion",
+      "note": "Inspired by published adverse-outcome rates in regional observational studies. Planning estimate only. Not a specific clinical recommendation."
+    },
+    {
+      "id": "p2",
+      "label": "Group 2 improved-care planning target",
+      "value": 0.08,
+      "unit": "proportion",
+      "note": "Hypothetical improved-care planning target for demonstration purposes only. Not from the same study as p1."
+    },
+    {
+      "id": "alpha",
+      "label": "Significance level (Type I error rate)",
+      "value": 0.05,
+      "note": "Two-tailed. Acceptable false-positive risk."
+    },
+    {
+      "id": "power",
+      "label": "Statistical power",
+      "value": 0.80,
+      "note": "80% probability of detecting the assumed difference if it truly exists under these planning assumptions."
+    }
+  ],
+  "outputs": [
+    {
+      "id": "sample_size_per_group",
+      "label": "Sample size per group",
+      "value": 221
+    },
+    {
+      "id": "total_sample_size",
+      "label": "Total sample size (both groups)",
+      "value": 442
+    }
+  ],
+  "planningContext": {
+    "method": "Two-proportion z-test. Uses the assumed difference between p1 and p2, with specified alpha and power.",
+    "p1Note": "Inspired by published adverse-outcome rates in regional observational studies. Planning estimate only.",
+    "p2Note": "Hypothetical improved-care planning target for demonstration. Not from the same study.",
+    "dropoutAdjustment": "Not included. Add inflation factor for expected dropout before use in a real study."
+  },
+  "assumptions": [
+    {
+      "id": "independent_groups",
+      "text": "The two groups are independent."
+    },
+    {
+      "id": "planning_estimates",
+      "text": "p1 and p2 are planning estimates. Their quality directly affects the sample-size result."
+    },
+    {
+      "id": "no_dropout_adjustment",
+      "text": "These numbers do not include dropout or non-response adjustment."
+    },
+    {
+      "id": "equal_group_sizes",
+      "text": "Equal group sizes assumed (n per group)."
+    }
+  ],
+  "limitations": [
+    {
+      "id": "not_study_validation",
+      "text": "This calculation does not validate study design or clinical sufficiency."
+    },
+    {
+      "id": "not_medical_advice",
+      "text": "This is not medical advice. Values require justification before any real study."
+    },
+    {
+      "id": "planning_estimates_only",
+      "text": "p1 and p2 are demonstration values. A real study requires evidence-based justification for these estimates."
+    }
+  ],
+  "aiBoundary": {
+    "mayRecalculate": false,
+    "mayOverride": false,
+    "mayAddClinicalAdvice": false,
+    "role": "explain_only"
+  }
+}

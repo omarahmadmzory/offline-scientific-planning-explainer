@@ -1,0 +1,17 @@
+Explain alpha, beta, and statistical power as used in this sample-size calculation.
+Structure your answer with these labeled sections (no markdown symbols):
+
+Alpha — Type I Error
+Beta — Type II Error
+Power = 1 - Beta
+What Power 0.80 Means Here
+What Power Does Not Guarantee
+
+Use simple language. Explain:
+- alpha (0.05) is the acceptable false-positive risk
+- beta (0.20 for power 0.80) is the false-negative risk
+- power is the probability of detecting the assumed difference if it is real
+- power 0.80 means an 80 percent chance of detecting that difference under these assumptions
+- power does not guarantee study success or clinical significance
+
+Do not add new numbers. Do not recalculate. Do not provide professional advice.
