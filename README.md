@@ -8,9 +8,7 @@ A submission for the [Gemma 4 Good Hackathon](https://www.kaggle.com/competition
 
 ## Demo Video
 
-[![Watch the demo](https://img.shields.io/badge/YouTube-Watch%20Demo-red)](VIDEO_URL_HERE)
-
-> Replace `VIDEO_URL_HERE` with your YouTube link before submission.
+[![Watch the demo](https://img.shields.io/badge/YouTube-Watch%20Demo-red)](https://youtube.com/shorts/M7QdLEfytSk?feature=share)
 
 ---
 
