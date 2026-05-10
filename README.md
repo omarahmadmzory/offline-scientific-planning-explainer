@@ -217,3 +217,7 @@ and bounded offline AI explanation work together to support education and resear
     note = {Kaggle}
 }
 ```
+
+## How to Cite This Work
+
+Omar Ahmed Mzory. Offline AI Explanation for Deterministic Scientific Results. https://www.kaggle.com/competitions/gemma-4-good-hackathon/writeups/offline-ai-explanation-for-deterministic-scientifi. 2026. Kaggle
