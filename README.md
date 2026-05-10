@@ -201,3 +201,17 @@ See [NOTICE.md](NOTICE.md) for model license information and third-party attribu
 
 It is a proof-of-concept demonstrating one workflow where deterministic computation
 and bounded offline AI explanation work together to support education and research.
+
+---
+
+## Citation
+
+```bibtex
+@misc{gemma-4-good-hackathon,
+    author = {Ian Ballantyne and Glenn Cameron and María Cruz and Olivier Lacombe and Kristen Quan and Omar Sanseviero},
+    title = {The Gemma 4 Good Hackathon},
+    year = {2026},
+    howpublished = {\url{https://kaggle.com/competitions/gemma-4-good-hackathon}},
+    note = {Kaggle}
+}
+```
