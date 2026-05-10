@@ -9,6 +9,8 @@ A submission for the [Gemma 4 Good Hackathon](https://www.kaggle.com/competition
 ## Demo Video
 
 [![Watch the demo](https://img.shields.io/badge/YouTube-Watch%20Demo-red)](https://www.youtube.com/shorts/M7QdLEfytSk)
+[![Kaggle Writeup](https://img.shields.io/badge/Kaggle-Writeup-blue)](https://www.kaggle.com/competitions/gemma-4-good-hackathon/writeups/offline-ai-explanation-for-deterministic-scientifi)
+
 
 ---
 
